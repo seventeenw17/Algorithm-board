@@ -38,7 +38,7 @@ bool operator == (const Point& A, const Point& B) {
 }
 // 点积
 double Dot(Vector a, Vector b) {
-    return (a.x * b.x + a.y + b.y);
+    return (a.x * b.x + a.y * b.y);
 }
 // 模长计算
 double Length(Vector a) {
